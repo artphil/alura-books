@@ -43,9 +43,8 @@
 
 .lista-menu__titulo {
     color: var(--color-title);
+    font-weight: 700;
 }
-
-.lista-menu__item {}
 
 .lista-menu__link {
     background: var(--color-link);

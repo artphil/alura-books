@@ -1,11 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
 @import url("styles/header.css");
 :root {
     --color-background: #EBECEE;
     --color-menu-background: #FFFFFF;
     --color-title: #EB9B00;
     --color-link: linear-gradient(98deg, #002F52 35.49%, #326589 165.37%);
+
+    --font-main: "Poppins";
 }
 
 body {
     background-color: var(--color-background);
+    font-family: var(--font-main);
+    font-size: 1rem;
+    font-weight: 400;
 }
