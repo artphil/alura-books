@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--color-menu-background);
+    background-color: var(--color-primary);
     position: relative;
 }
 
@@ -42,16 +42,16 @@
 .lista-menu__titulo,
 .lista-menu__item {
     padding: 1em;
-    background-color: var(--color-menu-background);
+    background-color: var(--color-primary);
 }
 
 .lista-menu__titulo {
-    color: var(--color-title);
+    color: var(--color-tertiary);
     font-weight: 700;
 }
 
 .lista-menu__link {
-    background: var(--color-link);
+    background: var(--color-secondary);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; 
