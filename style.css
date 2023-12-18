@@ -1,5 +1,7 @@
+@import url("styles/header.css");
 :root {
     --color-background: #EBECEE;
+    --color-menu-background: #FFFFFF;
 }
 
 body {
