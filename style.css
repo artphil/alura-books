@@ -2,6 +2,8 @@
 :root {
     --color-background: #EBECEE;
     --color-menu-background: #FFFFFF;
+    --color-title: #EB9B00;
+    --color-link: linear-gradient(98deg, #002F52 35.49%, #326589 165.37%);
 }
 
 body {
