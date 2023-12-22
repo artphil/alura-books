@@ -51,7 +51,7 @@
 }
 
 .lista-menu__link {
-    background: var(--color-secondary);
+    background: var(--color-secondary-gadient);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; 
