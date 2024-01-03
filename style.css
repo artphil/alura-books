@@ -3,6 +3,7 @@
 @import url("styles/banner.css");
 @import url("styles/carousel.css");
 @import url("styles/topicos.css");
+@import url("styles/contato.css");
 
 :root {
     --color-background: #EBECEE;
@@ -19,4 +20,12 @@ body {
     font-family: var(--font-main);
     font-size: 1rem;
     font-weight: 400;
+}
+
+footer {
+    padding: 1.5rem;  
+}
+
+hr {
+    margin: 0;
 }
