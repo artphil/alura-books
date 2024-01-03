@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Poppins:wght@300;400;500;700&display=swap');
 @import url("styles/header.css");
 @import url("styles/banner.css");
 @import url("styles/carousel.css");
@@ -11,8 +11,10 @@
     --color-secondary-gadient: linear-gradient(98deg, #002F52 35.49%, #326589 165.37%);
     --color-secondary-solid: #002F52;
     --color-tertiary: #EB9B00;
+    --color-quarantine: #000;
 
     --font-main: "Poppins";
+    --font-logo: "Josefin Sans"
 }
 
 body {
@@ -28,4 +30,10 @@ footer {
 
 hr {
     margin: 0;
+}
+
+@media screen and (min-width: 1024px) {
+    .only-small {
+        display: none;
+    }    
 }

@@ -54,7 +54,46 @@
     background: var(--color-secondary-gadient);
     background-clip: text;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
+    -webkit-text-fill-color: transparent;
     text-transform: uppercase;
     text-decoration: none;
+}
+
+.container__titulo {
+    display: none;
+    font-family: var(--font-logo);
+    font-weight: 400;
+    font-size: 1.875rem;
+}
+
+.container__titulo-negrito {
+    font-weight: 700;
+}
+
+.opcoes {
+    display: none;
+}
+
+.opcoes__item {
+    padding: 1em;
+    text-transform: uppercase;
+}
+
+.opcoes__link {
+    color: var(--color-quarantine);
+    text-decoration: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .container__titulo {
+        display: block;
+    }
+
+    .opcoes {
+        display: flex;
+    }
+
+    .lista-menu {
+        width: auto;
+    }
 }
