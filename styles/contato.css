@@ -40,3 +40,19 @@
     font-weight: 400;
     padding-left: 2rem;
 }
+
+@media screen and (min-width: 1024px) {
+
+    .contato {
+        display: flex;
+        padding: 2rem 4rem;
+    }
+    
+    .contato__titulo {
+        font-size: 1.5rem;
+    }
+    .contato__email {
+        width: 50%;
+    }
+    
+}
