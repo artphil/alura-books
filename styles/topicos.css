@@ -35,6 +35,11 @@
         font-size: 1.5rem;
     }
 
+    .topicos__lista {
+        margin: 0 10%;
+    }
+    
+
     .topicos__link {
         font-size: 1.5rem;
     }

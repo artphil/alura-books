@@ -46,6 +46,11 @@
     .contato {
         display: flex;
         padding: 2rem 4rem;
+        justify-content: space-between;
+    }
+
+    .contato__descricao {
+        width: 30%;
     }
     
     .contato__titulo {
