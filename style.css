@@ -4,6 +4,7 @@
 @import url("styles/carousel.css");
 @import url("styles/topicos.css");
 @import url("styles/contato.css");
+@import url("styles/footer.css");
 
 :root {
     --color-background: #EBECEE;
@@ -12,6 +13,8 @@
     --color-secondary-solid: #002F52;
     --color-tertiary: #EB9B00;
     --color-quarantine: #000;
+    --color-opac: #858585; 
+    --color-opac-fort: #474646; 
 
     --font-main: "Poppins";
     --font-logo: "Josefin Sans"
@@ -24,13 +27,6 @@ body {
     font-weight: 400;
 }
 
-footer {
-    padding: 1.5rem;  
-}
-
-hr {
-    margin: 0;
-}
 
 @media screen and (min-width: 1024px) {
     .only-small {
