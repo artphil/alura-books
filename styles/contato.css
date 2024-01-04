@@ -30,10 +30,9 @@
     margin: 1.5rem 0;
 }
 
-.contato__email::placeholder
-{
+.contato__email::placeholder {
     background: url("../assets/img/mail.svg") no-repeat;
-    background-position: left center ;
+    background-position: left center;
     color: var(--color-secondary-solid);
     font-family: var(--font-main);
     font-size: 1rem;
@@ -52,12 +51,34 @@
     .contato__descricao {
         width: 30%;
     }
-    
+
     .contato__titulo {
         font-size: 1.5rem;
     }
+
     .contato__email {
         width: 50%;
     }
-    
+
+}
+
+@media screen and (min-width: 1728px) {
+    .contato {
+        padding: 4rem 25vw;
+    }
+
+    .contato__descricao {
+        width: 50%;
+    }
+
+    .contato__email {
+        width: 40%;
+    }
+
+    .contato__email::placeholder {
+        background-position: 1rem center;
+        padding-left: 3rem;
+    }
+
+
 }
