@@ -48,3 +48,14 @@ hr {
     }
 
 }
+
+@media screen and (min-width: 1024px) {
+    .rodape {
+        padding: 3rem 2rem;
+    }
+
+    .rodape__lista {
+        border-left: 1px solid var(--color-opac);
+        padding-left: 1.5rem;
+    }
+}
