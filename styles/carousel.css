@@ -80,12 +80,13 @@
     }
 
     .swiper-slide {
-
         padding: 2rem 0;
-
+    }
+    .swiper-slide img {
+        width: 80%;
     }
     
-    
+
     .swiper-pagination {
         padding: 2rem 0 1rem 0;
     }
@@ -98,5 +99,40 @@
     .card {
         width: 40%;
         margin: 3em auto;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .carousel__titulo {
+        font-size: 2rem;
+        padding: 3rem 0 1.5rem 0;
+    }
+
+    .swiper {
+        width: 50%;
+    }
+
+    .swiper-pagination {
+        padding: 3rem 0 1rem 0;
+    }
+
+    .card {
+        width: 40%;
+        margin: auto;
+    }
+    .descricao__titulo {
+        font-size: 2rem;
+        line-height: 1.5em;
+    }
+    
+    .carousel__container {
+        margin: 0 10vw;
+        display: flex;
+        align-items:end;
+        justify-content: space-between;
+    }
+    .descricao {
+        padding-right: 3rem;
+        line-height: 1.5em;
     }
 }
